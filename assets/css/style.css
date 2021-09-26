@@ -24,6 +24,8 @@
 }
 
 .jumbotron::after{
+    margin-left: -12px;
+    padding: 0;
     content: '';
     display: block;
     width: 100%;

@@ -1,10 +1,10 @@
 /* Navbar */
-.navbar{
+.navbar {
     position: relative;
     z-index: 1;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Viga', sans-serif;
     font-size: 32px;
 }
@@ -12,7 +12,7 @@
 
 
 /* Jumbroton */
-.jumbotron{
+.jumbotron {
     background-image: url(../img/aa_cell.jpg);
     background-size: cover;
     height: auto;
@@ -21,37 +21,37 @@
     position: relative;
 }
 
-.jumbotron .container{
+.jumbotron .container {
     z-index: 1;
     position: relative;
 }
 
-.jumbotron::after{
+.jumbotron::after {
+    margin-left: -12px;
+    padding: 0;
     content: '';
     display: block;
     width: 100%;
     height: 80%;
-    background-image: linear-gradient(to top, rgba(0,0,0, 0.8), rgba(0,0,0,0));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
     position: absolute;
     bottom: 0;
 }
 
-.jumbotron .display-5{
+.jumbotron .display-5 {
     color: white;
     margin-top: 350px;
     font-weight: 200;
     font-size: 40px;
     margin-bottom: 36px;
     padding-right: 150px;
-}
-
-.jumbotron .display-5 span{
     font-weight: 500;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
 }
 
+
 /* Info Panel */
-.info-panel{    
+.info-panel {
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     margin-top: -75px;
@@ -60,21 +60,21 @@
     padding: 30px;
 }
 
-.info-panel h4{
+.info-panel h4 {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 5px;
 }
 
-.info-panel p{
+.info-panel p {
     font-size: 14px;
     color: #acacac;
     margin-top: -5px;
     font-weight: bold;
 }
 
-.info-panel img{
+.info-panel img {
     width: 80px;
     height: 80px;
     margin-right: 20px;
@@ -82,66 +82,66 @@
 }
 
 /* workingspace */
-.workingspace{
+.workingspace {
     margin-top: 120px;
     text-align: center;
 }
 
-.workingspace p{
+.workingspace p {
     font-size: 18px;
     color: #acacac;
     font-weight: 200;
     margin: 30px 0;
 }
 
-.workingspace h3{
+.workingspace h3 {
     font-size: 52px;
     font-weight: 200;
     text-transform: uppercase;
     margin-top: 30px;
 }
 
-.workingspace h3 span{
+.workingspace h3 span {
     font-weight: 500;
 }
 
 /* Testimonial */
-.testimonial{
+.testimonial {
     margin-top: 120px;
 }
 
-.testimonial h5{
+.testimonial h5 {
     text-align: center;
     font-weight: 200;
     font-style: italic;
     font-size: 24px;
 }
 
-.testimonial figure img{
+.testimonial figure img {
     width: 60px;
     margin: 20px 10px 5px;
     opacity: 0.6;
 }
 
-.testimonial figure h5{
+.testimonial figure h5 {
     font-size: 16px;
     font-weight: bold;
     font-style: normal;
     color: #1c2c5d;
 }
 
-.testimonial p{
+.testimonial p {
     font-size: 12px;
     color: #acacac;
     text-align: center;
     margin-top: -5px;
 }
 
-.testimonial figcaption{
+.testimonial figcaption {
     text-align: center;
 }
 
-.testimonial figure img.utama{
+.testimonial figure img.utama {
     width: 90px;
     opacity: 1;
     margin-top: 5px;
@@ -149,7 +149,7 @@
 
 
 /* Utility */
-.tombol{
+.tombol {
     text-transform: uppercase;
     border-radius: 40%;
 }
@@ -159,14 +159,14 @@
 
 
 /* DESKTOP VERSION */
- /* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .nav-link{
+    .nav-link {
         color: white !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     }
 
-    .navbar-brand{
+    .navbar-brand {
         color: #0b52d7 !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     }
@@ -177,7 +177,7 @@
         margin-right: 30px;
     }
 
-    .nav-link:hover::after{
+    .nav-link:hover::after {
         content: '';
         display: block;
         border-bottom: solid #0b63dc;
@@ -187,7 +187,7 @@
         margin-bottom: -8px;
     }
 
-    .jumbotron{
+    .jumbotron {
         margin-top: -75px;
         height: 640px;
     }
@@ -196,11 +196,11 @@
         font-size: 62px;
     }
 
-    .workingspace{
+    .workingspace {
         text-align: left;
     }
 
-    .testimonial h5{
+    .testimonial h5 {
         font-size: 32px;
     }
 }
